@@ -1,48 +1,72 @@
-# Ticket Booking System (Java Mini Project)
+#  Ticket Booking System (Java Mini Project)
 
-## Project Description
-This is a console-based Ticket Booking System developed using Java.  
-The application allows users to book tickets, check booked tickets, and manage seat availability through a simple menu-driven interface.
+##  Project Overview
 
-## Features
-- Book a ticket with passenger name, show name, and seat number
-- Prevent duplicate seat bookings
-- View all booked tickets
-- Unique ticket ID generated for each ticket
-- Menu-driven console interface
+The Ticket Booking System is a console-based Java application developed using **Core Java and Object-Oriented Programming (OOP)** concepts.
+It allows users to book tickets, view booked tickets, and manage seat availability through a simple menu-driven interface.
 
-## Technologies Used
-- Java
-- Object-Oriented Programming (OOP)
-- ArrayList Collection
-- Scanner Class for user input
+---
 
-## Project Structure
-src
+##  Technologies Used
+
+* Java (Core Java)
+* OOP Concepts (Encapsulation, Classes & Objects)
+* ArrayList Collection
+* Scanner Class (User Input)
+
+---
+
+##  Features
+
+*  Book tickets with passenger name, show name, and seat number
+*  Prevent duplicate seat bookings
+*  View all booked tickets
+*  Unique ticket ID generation
+*  Menu-driven console application
+
+---
+
+##  Project Structure
+
+```
+src/
  ├── Main.java
  ├── Ticket.java
  └── TicketBookingSystem.java
+```
 
-## How the Program Works
-1. The program displays a menu with options:
-   - Book Ticket
-   - View All Tickets
-   - Exit
+---
 
-2. When booking a ticket:
-   - User enters passenger name
-   - User enters show name
-   - User enters seat number
-   - System checks if the seat is already booked
+##  How It Works
 
-3. If the seat is available:
-   - Ticket is created with a unique Ticket ID
-   - Ticket details are stored in an ArrayList
-   - Ticket details are displayed
+1. User selects an option from the menu:
 
-4. Users can view all booked tickets anytime.
+* Book Ticket
+* View All Tickets
+* Exit
 
-## Example Output
+2. While booking:
+
+* Enter passenger name
+* Enter show name
+* Enter seat number
+
+3. System validation:
+
+* Checks if seat is already booked
+* Prevents duplicate bookings
+
+4. If valid:
+
+* Generates unique ticket ID
+* Stores ticket in ArrayList
+* Displays ticket details
+
+---
+
+##  Sample Output
+
+```
 ==== Ticket Booking System ====
 1. Book Ticket
 2. View All Tickets
@@ -54,15 +78,39 @@ Enter Show Name: Movie
 Enter Seat No: 5
 
 Ticket booked successfully!
-Ticket ID: 1000, Passenger: Himaja, Show: Movie, Seat No: 5
+Ticket ID: 1000, Passenger: Himaja, Show: Movie, Seat: 5
+```
 
-## Learning Outcomes
-- Understanding Java classes and objects
-- Implementing encapsulation with getters
-- Using ArrayList to store objects
-- Implementing menu-driven console applications
-- Basic project structure in Java
+###  View Tickets
 
-## Author
-Velpula Himaja
-B.Tech - Electronics and Communication Engineering
+```
+Enter choice: 2
+
+--- Booked Tickets ---
+Ticket ID: 1000, Passenger: Himaja, Show: Movie, Seat: 5
+```
+
+---
+
+##  Key Concepts Used
+
+* Classes and Objects
+* Encapsulation using getters
+* ArrayList for dynamic data storage
+* Looping and conditional statements
+* Menu-driven program design
+
+---
+
+##  Future Enhancements
+
+* GUI using Java Swing
+* Database integration (MySQL)
+* Online booking system
+* Cancel ticket feature
+
+---
+
+##  Author
+
+**Velpula Himaja**
